@@ -14,7 +14,7 @@ namespace DockerAPI.Controllers
         [Route("[controller]/[action]")]
         public string Hello()
         {
-            string returnStr = "hello there";
+            string returnStr = "hello there all";
             return returnStr;
         }
     }
